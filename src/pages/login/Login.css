@@ -1,0 +1,90 @@
+/*Mae de todos */
+.main_login {
+    display: flex;
+    height: 100vh;
+    background-color: #B51D44;
+}
+
+
+
+/*Banner */
+
+.banner {
+    background-image: url("../../assets/img/Banner.png");
+    flex: 1;
+
+    /*Modificar algumas caractericas da imagem */
+    background-position: center;
+    background-size: 380px;
+    background-repeat: no-repeat;
+}
+
+
+
+/*Form de login */
+
+.section_login{
+    flex: 1;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_login img {
+    width: 250px;
+}
+
+.form_login {
+    color: white;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.campos_login{
+    width: 70%;
+}
+
+.campo_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: none;
+    border-radius: none;
+}
+
+.campo_input input {
+    height: 30px;
+    padding: 0px 10px;
+    outline: none;
+    border-radius: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
+p{
+    color: gray;
+}
+
+.botao{
+    width: 70%;
+}
+/*RESPOSIVIDADE */
+
+/* Me de algumas caracteriticas a partir de um tamanho de tela */
+
+@media screen and (max-width: 768px){
+    .banner{
+        /* Para a imagem desaparecer */
+        display: none;
+    }
+}
