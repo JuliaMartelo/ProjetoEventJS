@@ -1,0 +1,49 @@
+.cadastro_evento {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form_cadastro{
+    display: flex;
+    width: 100%;
+}
+
+
+hr{
+    width: 320px;
+    color: #B51D44;
+    margin-top: 5px;
+    border-color: #B51D44;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.img_cadastro {
+    width: 310px;
+    margin-top: 10px;
+      
+}
+
+.campo_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: none;
+    border-radius: none;
+}
+
+.campo_input input{
+    height: 30px;
+    padding: 0px 10px;
+    outline: none;
+    border-radius: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+/* .botao{
+    width: 40px;
+    height: 20px;
+} */

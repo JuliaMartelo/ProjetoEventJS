@@ -19,7 +19,7 @@ const Login = () => {
                         <input type="password" name="senha" placeholder="Digite sua senha"/>
                     </div>
                 </div>
-                <p>Esqueceu a senha?</p>
+                <a href="">Esqueceu a senha?</a>
                 <Botao nomeDoBotao="Login"/>
             </form>
           </section>
