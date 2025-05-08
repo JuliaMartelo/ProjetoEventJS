@@ -12,7 +12,8 @@ const TipoUsuario = () => {
         
          <Header/>
         <main>
-            <Cadastro titulo="Cadastro tipo de usuário"
+            <Cadastro 
+            titulo="Cadastro tipo de usuário"
             input="Titulo"
             Imagem={Banner}/>
 

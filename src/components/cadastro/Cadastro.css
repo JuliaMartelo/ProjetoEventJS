@@ -21,7 +21,6 @@
     border-color: #B51D44;
     border-width: 1px;
     border-style: solid;
-
 }
 
 .formulario {
@@ -56,67 +55,20 @@
 }
 
 
-
-
-
-
-
-/* .cadastro_evento {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    /* flex-direction: column; */
-/* height: 680px;
-} */
-
-/* .form_cadastro{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-h1{
-    padding-top: 25px;
-}
-
-
-hr{
-    width: 320px;
-    color: #B51D44;
-    margin-top: 5px;
-    border-color: #B51D44;
-    border-width: 1px;
-    border-style: solid;
+.campo_cad_genero select{
+    margin-bottom: 70px;
+    width: 260px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
 }
 
 .img_cadastro {
-    width: 300px;
-    margin-top: 10px;
-      
+    height: 238px;
+    width: 436px;
 }
 
-.campo_input{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: none;
-    border-radius: none;
+.section_cadastro {
+    height: 410px;
 }
-
-.campo_input input{
-    height: 30px;
-    width: 220px;
-    padding: 0px 10px;
-    outline: none;
-    border-radius: none;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    display: flex;
-    flex-direction: row;
-    margin-left: 500px;
-} */
-
-/* .botao{
-    height: 30px;
-    width: 220px;
-}  */
