@@ -1,13 +1,82 @@
 .cadastro_evento {
+
+    align-items: center;
+    height: 500px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.titulo hr {
+
+    width: 100%;
+    max-width: 300px;
+    margin-top: 5px;
+    border-color: #B51D44;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.formulario {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+
+.form_cadastro input {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    height: 30px;
+    width: 260px;
+    padding: 0px 10px;
+    border-radius: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.formulario img {
+    width: 400px;
+
+}
+
+.form_cadastro {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* .cadastro_evento {
     display: flex;
     align-items: center;
     text-align: center;
+    /* flex-direction: column; */
+/* height: 680px;
+} */
+
+/* .form_cadastro{
+    display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.form_cadastro{
-    display: flex;
-    width: 100%;
+h1{
+    padding-top: 25px;
 }
 
 
@@ -21,7 +90,7 @@ hr{
 }
 
 .img_cadastro {
-    width: 310px;
+    width: 300px;
     margin-top: 10px;
       
 }
@@ -35,15 +104,19 @@ hr{
 
 .campo_input input{
     height: 30px;
+    width: 220px;
     padding: 0px 10px;
     outline: none;
     border-radius: none;
     border-top: none;
     border-right: none;
     border-left: none;
-}
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+} */
 
 /* .botao{
-    width: 40px;
-    height: 20px;
-} */
+    height: 30px;
+    width: 220px;
+}  */
