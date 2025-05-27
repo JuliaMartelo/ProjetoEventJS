@@ -31,8 +31,8 @@
 
 
 .form_cadastro input {
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     height: 30px;
     width: 260px;
     padding: 0px 10px;
@@ -44,25 +44,55 @@
 
 .formulario img {
     width: 400px;
-
 }
 
 .form_cadastro {
     display: flex;
     width: 50%;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 
-.campo_cad_genero select{
-    margin-bottom: 70px;
+.campo_cad_genero select,
+.campo_cadastro_genero{
+    margin-bottom: 20px;
     width: 260px;
     border-top: none;
     border-left: none;
     border-right: none;
     outline: none;
 }
+
+/* .input2{
+     margin-bottom: 20px;
+    width: 260px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+} */
+
+/* .input3{
+    margin-bottom: 20px;
+    width: 260px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+} */
+
+.campo_cadastro_genero select,
+.campo_cad_instituicao input{
+    margin-bottom: 20px;
+    width: 260px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+
 
 .img_cadastro {
     height: 238px;
@@ -71,4 +101,11 @@
 
 .section_cadastro {
     height: 410px;
+}
+
+@media screen and (max-width: 768px){
+    .banner{
+        /* Para a imagem desaparecer */
+        display: none;
+    }
 }

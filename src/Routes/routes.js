@@ -1,5 +1,6 @@
 import {BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "../pages/login/Login";
+// import TipoEvento from "../pages/tipoevento/TipoEvento";
 import TipoEvento from "../pages/tipoevento/TipoEvento";
 import TipoUsuario from "../pages/tipousuario/Tipousuario";
 import Cadastroevento from "../pages/cadastroevento/Cadastroevento";

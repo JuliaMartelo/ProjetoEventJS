@@ -1,79 +1,90 @@
-
 .listagem {
-    background-color: #B51D44;
-    width: 100%;
-    height: 370px;
-    padding: 20px;
-  }
-  
-  .titulo_organizando hr{
-    width: 300px;
+  min-height: calc(100vh - (75px + 399px + 40px));
+  background-color: #B51D44;
+  padding: 20px;
+}
 
-  }
-
-  .titulo_organizando {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .titulo_organizando h1 {
-    color: aliceblue;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  .linha_titulo {
-    width: 200px;
-    border: none;
-    border-top: 2px solid aliceblue;
-    margin: 0 auto;
-  }
-  
-
-  .tabela {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    color: aliceblue;
-    
-  }
-  
-  .tabela table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .table_cabecalho th {
-    padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid white;
-  }
-  
-  .item_lista {
-    text-align: center;
-    border-bottom: 1px solid white;
-  }
-  
-  .item_lista td {
-    padding: 20px;
-  }
-  
-  .item_lista img {
-    height: 20px;
-    
-  }
-
-.tabela .table_cabecalho :first-child{
+.titulo_organizando hr {
   width: 300px;
-  
+
 }
 
-  .tabela .table_cabecalho :nth-child(2){
-    width: 400px;
-    text-align: start;
+.titulo_organizando {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.tabela .item_lista :nth-child(2){
+.titulo_organizando h1 {
+  color: aliceblue;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.linha_titulo {
+  width: 200px;
+  border: none;
+  border-top: 2px solid aliceblue;
+  margin: 0 auto;
+}
+
+
+.tabela {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: aliceblue;
+
+}
+
+.tabela table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table_cabecalho th {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.item_lista {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.item_lista td {
+  padding: 20px;
+}
+
+.item_lista img {
+  height: 20px;
+
+}
+
+.tabela .table_cabecalho :first-child {
+  width: 300px;
+
+}
+
+.tabela .table_cabecalho :nth-child(2) {
   width: 400px;
-  
+  text-align: start;
+}
+
+.tabela .item_lista :nth-child(2) {
+  width: 400px;
+
+}
+
+.botao_excluir {
+  cursor: pointer;
+  border: none;
+  width: 30px;
+
+}
+
+.botao_editar {
+  cursor: pointer;
+  border: none;
+  width: 30px;
 }
