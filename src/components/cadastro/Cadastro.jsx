@@ -19,8 +19,8 @@ const Cadastro = (props) => {
                         <input type="text"
                             name="Nome"
                             placeholder={props.input}
-                            value={props.valorInput}
-                            onChange={(e) => props.setValorInput(e.target.value)}
+                            value={props.valorInput1}
+                            onChange={(e) => props.setValorInput1(e.target.value)}
                         />
                     </div>
 
@@ -28,31 +28,49 @@ const Cadastro = (props) => {
                         <input type="date"
                             name="date"
                             placeholder={props.data}
-                            value={props.valorInput}
-                            onChange={(e) => props.setValorInput(e.target.value)}
+                            value={props.valorInput2}
+                            onChange={(e) => props.setValorInput2(e.target.value)}
                         />
                     </div>
 
                     <div className="campo_cad_genero" style={{ display: props.visibilidade }}>
-                        <select name="" id="">
-                            <option value="" disabled selected>Tipo Evento</option>
+                        <select name="" id=""
+                            value={props.valorInput3} onChange={(e) => props.setValorInput3(e.target.value)}>
+                           
+                            <option value="" disabled>Tipo de Evento</option>
+                            
+                                {props.lista && props.lista.length > 0 && props.lista.map((itemTipoEvento) => (
+                                    (
+                                        <option
+                                            key={itemTipoEvento.idTipoEvento}
+                                            value={itemTipoEvento.idTipoEvento}
+                                        >
+                                            {itemTipoEvento.tituloTipoEvento}
+
+                                            {/*<option value={itemTipoEvento.idTipoEvento}>{itemTipoEvento.tituloTipoEvento}</option>*/}
+                                        </option>
+
+                                    ))
+                                )}
                            
                         </select>
                     </div>
 
                     <div className="campo_cad_instituicao">
                         <select name="" id="">
-                            <option value="" disabled selected>Instituicao</option>
-                            
+                            <option value={props.valorInput4} disabled selected>Instituicao</option>
+                             onChange={(e) => props.setValorInput4(e.target.value)}
                         </select>
+                        </div>
+                        <div className="input_descricao">
 
                         <input type="text"
                             name="Nome"
                             placeholder={props.descricao}
-                            value={props.valorInput}
-                            onChange={(e) => props.setValorInput(e.target.value)}
+                            value={props.valorInput5}
+                            onChange={(e) => props.setValorInput5(e.target.value)}
                         />
-                    </div>
+                        </div>
 
 
 

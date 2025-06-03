@@ -159,6 +159,8 @@ const TipoEvento = () => {
 
                     funcExcluir={deletarTipoEvento}
                     funcEditar={editarTipoEvento}
+
+                     
                 />
             </main>
             <Footer />

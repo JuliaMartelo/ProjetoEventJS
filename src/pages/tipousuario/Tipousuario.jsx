@@ -168,7 +168,6 @@ const TipoUsuario = () => {
             funcExcluir={deletarTipoUsuario}
             funcEditar={editarTipoUsuario}
 
-
             />
         </main>
 

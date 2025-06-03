@@ -83,7 +83,7 @@
 } */
 
 .campo_cadastro_genero select,
-.campo_cad_instituicao input{
+.campo_cad_instituicao select{
     margin-bottom: 20px;
     width: 260px;
     border-top: none;

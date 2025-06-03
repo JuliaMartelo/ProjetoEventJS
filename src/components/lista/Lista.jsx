@@ -7,7 +7,7 @@ const Lista = (props) => {
         <section className=" listagem">
             <div className="titulo_organizando">
                 <h1>{props.tituloLista}</h1>
-                <hr className="linha_titulo" />
+                <hr className="linha_titulo"/>
             </div>
 
             <div className="tabela">
@@ -15,7 +15,8 @@ const Lista = (props) => {
                     <thead>
                         <tr className="table_cabecalho">
                             <th style={{ display: props.visibleTitle }}>Titulo</th>
-                            <th style={{ display: props.visibleEventType }} id="tipoEvento">Tipo Evento </th>
+                            <th>{props.TipoDataEvento}</th>
+                            <th style={{ display: props.visibleEventType }}>Tipo Evento </th>
                             <th>Editar</th>
                             <th>Excluir</th>
                         </tr>
@@ -28,6 +29,9 @@ const Lista = (props) => {
                                 >
 
                                     <td data-cell="Nome" style={{ display: props.visibleName}}></td>
+
+                                    
+
 
                                     <td data-cell="Tipo Evento" style={{ display: props.Name }}>{props.tipoLista == "TiposEventos" ? item.tituloTipoEvento : item.tituloTipoUsuario}</td>
 
