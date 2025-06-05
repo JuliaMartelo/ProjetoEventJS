@@ -67,7 +67,102 @@ input:checked+.slider::before {
     transform: translateY(-50%) translateX(26px);
 }
 
-
-
-
 /* fim do toggle */
+
+
+.icon{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+select{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    padding: 0 5px;
+    width: 355px;
+    height: 30px;
+    margin-bottom: 60px;
+    color: #201849;
+    display: flex;
+}
+
+
+.main_lista_eventos{
+    height: 570px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+
+    background-color: white;
+    color: black;
+}
+
+.main_lista_eventos h1{
+    text-transform: uppercase;
+    color: black;
+    font-size: 19px;
+
+}
+
+.main_lista_eventos hr {
+    max-width: 200px;
+    width: 100%;
+    border-style: solid;
+    border-top-width: 1px;
+    border-color: #B51D44;
+    margin-top: 5px;
+    color: white;
+    
+}
+
+.tabela_evento {
+    width: 80%;
+    margin-top: 40px;
+
+    text-align: center;
+    border-bottom: 1px solid #201849;
+    
+    margin-left: -60px;
+    
+}
+
+
+
+
+.tabela_evento .tabela_lista_eventos th {
+    border-bottom: 2px solid #B51D44;
+    width: 100px;
+    margin-top: 40px;
+    
+}
+
+.tabela_evento .tabela_lista_eventos :first-child {
+    width: 300px;
+    
+}
+
+
+.tabela_evento .tabela_lista_eventos :nth-child(2) {
+    width: 760px;
+    text-align: start;
+}
+
+
+.tabela_evento .campo_evento :nth-child(2){
+    text-align: start;
+}
+.campo_evento td {
+    padding: 30px 5px 30px;
+    width: 500px;
+    border-bottom: #201849 1px solid;
+    
+}
+
+/* --------------- Toggle ----------------- */
+
+

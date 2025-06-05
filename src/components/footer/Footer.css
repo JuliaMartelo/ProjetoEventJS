@@ -5,6 +5,8 @@ footer{
     align-items: center;
     height: 40px;
     color: black;
+    width: 100%;
     box-shadow: 4px 4px 4px 4px #00000055;
-    position: relative;
+    position: fixed;
+    bottom: 0;
 }
