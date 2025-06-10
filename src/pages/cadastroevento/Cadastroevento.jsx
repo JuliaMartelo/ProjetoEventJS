@@ -17,7 +17,7 @@ const CadastroEvento = () => {
     const [cadastraTipoEvento, setcadastraTipoEvento] = useState("");
     const [cadastraInstituicao, setcadastraInstituicao] = useState("");
     const [cadastraDescricao, setcadastraDescricao] = useState("");
-    const [listarEvento, setListarEvento] = useState([]);
+    const [listaEvento, setListaEvento] = useState([]);
 
     function alertar(icone, mensagem) {
         const Toast = Swal.mixin({
@@ -39,7 +39,6 @@ const CadastroEvento = () => {
     }
 
     async function cadastrarEvento() {
-
         console.log(cadastraNome);
         if (cadastraNome.trim !== "") {
             const cadastro = await api.post("Eventos", { nomeEvento: cadastraNome, dataEvento: cadastraData, idTipoEvento: cadastraTipoEvento, descricao: cadastraDescricao, idInstituicao: cadastraInstituicao });
@@ -66,15 +65,15 @@ const CadastroEvento = () => {
 
     }
 
-//    async function listarEvento() {
-//         try {
-//             const resposta = await api.get("Eventos")
-//             setListaEvento(resposta.data)
-//         } catch (error) {
-//             console.log(error);
+   async function listarEvento() {
+        try {
+            const resposta = await api.get("Eventos")
+            setListaEvento(resposta.data)
+        } catch (error) {
+            console.log(error);
 
-//         }
-//     }
+        }
+    }
 
 
     useEffect(() => {
